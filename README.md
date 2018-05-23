@@ -14,8 +14,9 @@ sbt compile
 
 Then generate JAR file with:
 ```
-sbt compile
+sbt package
 ```
+
 This will create iot-device-stream-kafka_2.11-0.1.jar under IoT-device-stream-kafka/target/scala-2.11
 
 ## Running producer

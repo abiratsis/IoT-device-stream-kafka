@@ -24,6 +24,7 @@ Navigate under project's root directory and execute:
 sbt "runMain com.IoT.Producer.IoTProducerWindow"
 ```
 The next window should appear.
+
 ![producer](./img/2018_05_23_23_47_37_IoT_device_producer.png)
 
 ## Running Spark streaming consumer
@@ -32,6 +33,7 @@ Navigate under project's root directory and execute:
 sbt "runMain com.IoT.Consumer.KafkaToHBaseWindow"
 ```
 The next window should appear.
-![producer](./img/2018_05_24_00_01_25_Kafka_to_HBase_receiver.png)
+
+![consumer](./img/2018_05_24_00_01_25_Kafka_to_HBase_receiver.png)
 
 Enjoy!
